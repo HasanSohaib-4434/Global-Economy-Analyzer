@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Graphical and Tabular</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(65, 65, 65);</string>
+  </property>
+  <widget class="QPushButton" name="e">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>630</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="text">
+    <string>Plot Grapgh</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enter">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>560</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="text">
+    <string>Select Variable</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxg">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>560</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>891</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayoutg"/>
+  </widget>
+  <widget class="QComboBox" name="comboBoxg2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>630</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxg3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>560</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxg4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>620</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>530</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="text">
+    <string>Select Countries</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>20</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: #FFFFFF;
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+font-size:20px</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
